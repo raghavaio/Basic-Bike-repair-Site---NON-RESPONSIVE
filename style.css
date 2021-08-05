@@ -1,0 +1,232 @@
+body {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+    Font-Family: 'Cabin',
+        Sans-Serif;
+    color: white;
+    font-size: 1.123rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    /* background-color: rgb(9, 54, 54); */
+    min-height: 300px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 12px strong white;
+}
+
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+main {
+    /* background-color: rgb(111, 188, 255); */
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 60px; */
+}
+
+.cardmain1 {
+    /* background-color: aquamarine; */
+    /* min-height: 300px; */
+    padding-right: 100px;
+    flex: 2;
+}
+
+.cardmain2 {
+    /* background-color: powderblue; */
+    /* min-height: 300px; */
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(images/image-background-card1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2 {
+    background-image: url(images/image-background-card2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(images/image-background-card3.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    width: 30%;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 50px 30px 20px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.315);
+    /* border-style:solid;
+    border-width:0.5px;
+    border-color:aliceblue; */
+transition-duration: 0.6s;
+}
+
+h1 {
+    Font-Family: 'Roboto Condensed',
+        Sans-Serif;
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.315);
+}
+
+h2 {
+    Font-Family: 'Roboto Condensed',
+        Sans-Serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+    /* margin-bottom: 1.5rem; */
+}
+
+
+p {
+    line-height: 1.5rem;
+}
+
+.card p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    /* margin: 20px 30px 20px 30px; */
+    margin-top: 10px;
+}
+
+.card i {
+    /* margin-top: 2rem; */
+    font-size: 4rem;
+    transition-duration: 0.6s;
+}
+
+
+.card a:hover {
+    color: rgb(212, 212, 212);
+    transition-duration: 0.6s;
+}
+
+
+.mybutton {
+    background-color: white;
+    color: #4158D0;
+    Font-Family: 'Roboto Condensed',
+        Sans-Serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 2rem;
+    border-radius: 15px 0px;
+    box-shadow: 0px 2px 15px #4159d088;
+    transition-duration: 0.6s;
+
+}
+
+.container a:hover,
+.mybutton:hover {
+    transition-duration: 0.6s;
+    padding: 11px 30px
+}
+
+.cardmain2 img {
+    border-radius: 5px;
+}
+
+nav a {
+    margin-right: 1rem;
+    transition-duration: 0.6s;
+
+}
+
+.navbut {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-spacing: 15px 15px;
+    padding: 8px 20px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.testbox {
+    width: 47%;
+    border: 1px solid white;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    margin-top: 50px;
+    transition-duration: 0.6s;
+}
+
+.testbox p {
+    margin-top: 1rem;
+    Font-Family: 'Cabin',
+        Sans-Serif;
+    font-weight: 100;
+}
+
+.testbox:hover {
+    width: 50%;
+    border: 1px solid white;
+    padding: 60px;
+    transition-duration: 0.6s;
+}
+
+.footer {
+    text-align: center;
+    transition-duration: 0.6s;
+
+}
+
+.footer i {
+    padding: 0px 5px;
+    margin-bottom: 20px;
+    transition-duration: 0.6s;
+}
+
+.footer p {
+    font-size: 10px;
+    transition-duration: 0.6s;
+}
+
+.testbox p:last-of-type {
+    font-size:0.7rem;
+    margin-right: 10px;
+}
